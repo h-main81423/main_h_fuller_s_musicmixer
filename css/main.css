@@ -1,8 +1,17 @@
 @charset "UTF-8";
 /*CSS Doc*/
 
-.hidden
-{
+.hidden {
 	display: none;
+}
+
+#siteContainer {
+	width: 1440px;
+	height: 1000px;
+}
+
+#mainNav {
+	height: 100px;
+	background: #000;
 }
 
