@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /*CSS Doc*/
 
+
 .hidden {
 	display: none;
 }
 
 #siteContainer {
+	margin: 0 auto;
 	width: 1440px;
 	height: 1000px;
 }
@@ -15,3 +17,54 @@
 	background: #000;
 }
 
+#mainNav ul {
+	margin-left: 410px;
+	display: flex;
+}
+
+#mainNav ul li {
+	font-family: Arial;
+	font-size: 24px;
+	margin-top: 35px;
+	margin-right: 90px; 
+	flex-direction: row;
+}
+
+
+#mainNav ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #222;
+	border-radius: 10px;
+}
+
+#mainNav ul li a:hover {
+	background-color: #353535;
+}
+
+#musicWrapper {
+	width: 1240px; 
+	height: 775px;
+	margin-left: 100px;
+	margin-top: 25px;
+	background-image: linear-gradient(#f5d052,#0d186f);
+}
+
+#musicNav {
+	height: 75px;
+	background-color: #000000;
+	display: flex;
+}
+
+#musicIcons {
+	flex-direction: row;
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+	margin-top: 13px;
+	background-color: #333;
+}
