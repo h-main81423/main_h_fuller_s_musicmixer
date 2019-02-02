@@ -33,6 +33,7 @@
 
 #mainNav ul li a {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #FFF;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -56,15 +57,90 @@
 
 #musicNav {
 	height: 75px;
-	background-color: #000000;
+	background-color: #0d186f;
 	display: flex;
 }
 
 #musicIcons {
 	flex-direction: row;
 	margin-left: 10px;
+	margin-right: 10px;
 	width: 50px;
 	height: 50px;
 	margin-top: 13px;
-	background-color: #333;
+	background-color: #000;
+}
+
+#musicBox {	
+	width: 1220px;
+	height: 775px;
+	margin-left: 10px;
+}
+
+#figureContainer {
+	width: 1240px;
+	height: 675px;
+	margin-top: 50px;
+	display: flex;
+}
+
+#figure {
+	flex-direction: row;
+	margin-left: 20px;
+	width: 100px;
+	height: 600px;
+	background-color: #FFF;
+}
+
+
+#resetButton {
+	margin-top: 25px;
+	margin-left: 1185px;
+	width: 155px;
+	height: 50px;
+	background-color: #0d186f;
+}
+
+#resetButton p {
+	padding-top: 12px;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Arial;
+	color: #FFF;
+}
+
+#footerNav {
+	margin-top: 25px;
+	height: 50px;
+	background: #000;
+}
+
+#footerNav ul {
+	margin-left: 410px;
+	display: flex;
+}
+
+#footerNav ul li {
+	font-family: Arial;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-right: 90px; 
+	flex-direction: row;
+}
+
+#footerNav ul li a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #FFF;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #222;
+	border-radius: 10px;
+}
+
+#footerNav ul li a:hover {
+	background-color: #353535;
 }
