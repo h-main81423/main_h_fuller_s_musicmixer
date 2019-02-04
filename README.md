@@ -6,6 +6,15 @@ Creating a music mixer project similar to incredibox.com utilizing JavaScript
 Utilizing beats, effects, melodies, and potentially voices to create a soundtrack loop.
 
 ### Developer Notes: Simon
+*Process begins with structuring simple HTML in which we can add audio files to.
+*Link the CSS HTML AND JS to be able to communicate the audio and style our images.
+*JS needs to listen for click on music buttons.
+*needs to play music file in WHILE LOOP
+*END LOOP with eventlistener that listens for click on remove audio button.
+*AUDIO files need to be quantized to play in sync.
+*audio files need rules/conditions in which playback only occurs as any other loops complete their cycle so that all files play in sync.
+
+**EXENTISVELY RESARCHED LYNDA.COM for JS links. ALSO, phone application SOLO LEARN.
 
 ### Designer Notes: Hayden
 *The HTML/CSS should have a header for branding logo and menu bar for home/about/conact
