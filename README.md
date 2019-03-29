@@ -2,8 +2,11 @@
 ## Simon Fuller & Hayden Main
 ### Project Description
 
-Creating a music mixer project similar to incredibox.com utilizing JavaScript
-Utilizing beats, effects, melodies, and potentially voices to create a soundtrack loop.
+Using JavaScript, CSS, and HTML, we created a music mixer application that allows users to drag and drop icons over figures to initiate a song sequence. Users can choose between multiple sound presets to mix together to their liking. There are 19 different sounds to choose from. Each icon represents a sound sequence and can be dragged over figures, which will swap animations based upon the category of what sound is placed onto it. 
+
+The layout of the web application is relatively simple, so its interface is very user friendly and understandable. 
+
+We hope you enjoy the project!
 
 ### Developer Notes: Simon
 *Process begins with structuring simple HTML in which we can add audio files to.
