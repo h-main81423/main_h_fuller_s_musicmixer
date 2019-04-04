@@ -73,7 +73,7 @@
 
 #musicWrapper {
 	width: 1240px; 
-	height: 775px;
+	height: 875px;
 	margin-left: 100px;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -112,13 +112,13 @@
 
 #figureContainer {
 	width: 1240px;
-	height: 675px;
+	height: 775px;
 	margin-top: 40px;
 	margin-left: 13px;
 	display: flex;
 }
 
-#figure {
+.figure {
 	flex-direction: row;
 	padding-top: 15px;
 	margin-left: 10px;
