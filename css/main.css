@@ -73,7 +73,7 @@
 
 #musicWrapper {
 	width: 1240px; 
-	height: 775px;
+	height: 875px;
 	margin-left: 100px;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -85,7 +85,7 @@
 	border-left: solid 3px #FF35F0;
 }
 
-#musicNav {
+.musicNav {
 	height: 75px;
 	background-image: linear-gradient(#3c8c78, #00D39C);
 	display: flex;
@@ -105,6 +105,104 @@
 	border-radius: 20px;
 }
 
+#drum1 {
+	
+	background-image: url(../images/icon_drum1.svg);
+	
+}
+
+#drum2 {
+	
+	background-image: url(../images/icon_drum2.svg);
+
+}
+
+#drum3 {
+	
+	background-image: url(../images/icon_drum3.svg);
+}
+
+#perc1 {
+	
+	background-image: url(../images/icon_perc1.svg);
+}
+
+#perc2 {
+	
+	background-image: url(../images/icon_perc2.svg);
+}
+
+#perc3 {
+	
+	background-image: url(../images/icon_perc3.svg);
+}
+
+#bass1 {
+	
+	background-image: url(../images/icon_bass1.svg);
+}
+
+#bass2 {
+	
+	background-image: url(../images/icon_bass2.svg);
+}
+
+#bass3 {
+	
+	background-image: url(../images/icon_bass3.svg);
+}
+
+#synth1 {
+	
+	background-image: url(../images/icon_synth1.svg);
+}
+
+#synth2 {
+	
+	background-image: url(../images/icon_synth2.svg);
+}
+
+#synth3 {
+	
+	background-image: url(../images/icon_synth3.svg);
+}
+
+#vocal1 {
+	
+	background-image: url(../images/icon_vocal1.svg);
+}
+
+#vocal2 {
+	
+	background-image: url(../images/icon_vocal2.svg);
+}
+
+#vocal3 {
+	
+	background-image: url(../images/icon_vocal3.svg);
+}
+
+#fx1 {
+	
+	background-image: url(../images/icon_effect1.svg);
+}
+
+#fx2 {
+	
+	background-image: url(../images/icon_effect2.svg);
+}
+
+#fx3 {
+	
+	background-image: url(../images/icon_effect3.svg);
+}
+
+
+
+
+
+
+
 #musicBox {	
 	width: 1220px;
 	height: 775px;
@@ -112,13 +210,13 @@
 
 #figureContainer {
 	width: 1240px;
-	height: 675px;
+	height: 775px;
 	margin-top: 40px;
 	margin-left: 13px;
 	display: flex;
 }
 
-#figure {
+.figure {
 	flex-direction: row;
 	padding-top: 15px;
 	margin-left: 10px;
